@@ -1,0 +1,4 @@
+Quantization,Throughput (tok/s),Latency (ms/tok),TTFT (ms),Peak VRAM (GB),vs FP16 speedup,VRAM reduction
+FP16,22.9,43.58,51.6,5.70,1.00×,—
+INT4,13.3,75.37,97.4,2.06,0.58×,64%
+INT8,7.9,126.10,158.6,3.19,0.35×,44%
