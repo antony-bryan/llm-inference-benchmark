@@ -125,29 +125,8 @@ Full validation output: [`results/output_validation.csv`](results/output_validat
 
 ---
 
-## Reproduce
-
-```bash
-# 1. Clone
-git clone https://github.com/antony-bryan/llm-inference-benchmark
-cd llm-inference-benchmark
-
-# 2. Install
-pip install -r requirements.txt
-
-# 3. Run
-python benchmark.py \
-    --model microsoft/phi-2 \
-    --quant fp16,int8,int4 \
-    --batch 1,4,8,16 \
-    --seqlen 64,128,256,512 \
-    --max-new 50 \
-    --n-runs 10 \
-    --output results/bench_all.csv
-```
-
 **Hardware used:** 2× NVIDIA Tesla T4 (16 GB each), CUDA 12.8
-**Full notebook:** [`notebooks/phi2_inference_benchmark.ipynb`](notebooks/phi2_inference_benchmark.ipynb)
+**Full notebook:** [`notebooks/phi2_inference_benchmark.ipynb`](notebooks/phi2-inference-benchmark.ipynb)
 
 ---
 
@@ -157,7 +136,6 @@ python benchmark.py \
 llm-inference-benchmark/
 ├── README.md
 ├── requirements.txt
-├── benchmark.py
 ├── notebooks/
 │   └── phi2_inference_benchmark.ipynb
 └── results/
