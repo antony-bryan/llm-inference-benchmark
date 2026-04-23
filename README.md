@@ -149,10 +149,3 @@ llm-inference-benchmark/
     └── charts/
         └── benchmark_results.png
 ```
-
----
-
-## Author
-
-**Antony Bryan**
-[github.com/antony-bryan](https://github.com/antony-bryan) · [huggingface.co/antony-bryan-3D2Y](https://huggingface.co/antony-bryan-3D2Y)
